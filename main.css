@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Navbar */
+#navbar{
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+#navbar ul li a{
+    padding: 1rem;
+    
+}
+#navbar ul li a:hover{
+    background: #000000;
+    border-radius: 0.4rem;
+}
+
+
+/* Home section */
+
+#home{
+    font-size: 1.4rem;
+    display: inline-flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+ 
+}
+
+#home img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+    margin-left: 00.75rem;
+}
+#home .name p{
+    opacity: 0.7;
+    margin-left: 00.75rem;
+}
+/*whoami section*/
+#whoami{
+    font-size: 1.4rem;
+    letter-spacing: 0.005rem;
+    line-height: 2.3rem;
+    padding: 2rem;
+    margin-left: 20px;
+    margin-left: 40px;
+    
+}
+
+/*doing section*/
+#doing{
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem;
+}
+#doing .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#doing .items .item{
+    width: 25%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#doing .items .item:hover{
+    color: #000000;
+    opacity: 0.9;
+}
+/*news*/
+
+#news{
+    color: #333;
+    font-size: 20px;
+    padding: 3rem;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.news .notif{
+     display: flex;
+     padding: 0.5rem;
+     margin-bottom: 0.5rem;
+}
+
+.news .notif .notif-image{
+    margin-right: 0.5rem;
+    position: relative;
+
+}
+
+.news .notif .notif-image img{
+    border-radius: 5px;
+    border: 1px solid rgb(3, 3, 3, 0.1);
+    
+}
+
+.news .notif .notif-image span{
+    background: #d31d10;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+.news .notif .notif-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.news .notif .notif-info .description{
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+#contact{
+    color: #fff;
+    font-size: 20px;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li{
+    padding: 1rem;
+    font-size: 3rem;
+}
+#contact .contact-form ul li:hover{
+    opacity: 0.7;
+}
