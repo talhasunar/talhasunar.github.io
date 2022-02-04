@@ -1,17 +1,33 @@
 #navbar{
     flex-direction: column;
+    font-size: 15px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     overflow: hidden;
     height: 100px;
 }
-#training .items{
+#home{
+    font-size: 1.4rem;
+    display:block;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+ 
+}
+#home img{
+    max-width: 50%;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+#doing .items{
     flex-direction: column;
 }
-#training .items .item{
+#doing .items .item{
     width: 100%;
 }
 
-.news .lecture{
+.news .notif{
     flex-direction: column;
 }
