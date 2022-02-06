@@ -5,10 +5,10 @@
     overflow: hidden;
     height: 100px;
 }
-#training .items{
+#doing .items{
     flex-direction: column;
 }
-#training .items .item{
+#doing .items .item{
     width: 100%;
 }
 
